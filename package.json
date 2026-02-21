@@ -1,0 +1,30 @@
+{
+  "name": "ender-store-discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for ticket management, stats tracking, and custom commands.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordjs",
+    "tickets",
+    "stats"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.7.0",
+    "@discordjs/rest": "^2.3.0",
+    "@discordjs/voice": "^0.19.0",
+    "@snazzah/davey": "^0.1.9",
+    "discord-api-types": "^0.37.76",
+    "discord.js": "^14.15.2",
+    "dotenv": "^16.4.5",
+    "libsodium-wrappers": "^0.8.2",
+    "qrcode": "^1.5.3"
+  }
+}
